@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+*{
+    margin: 0;
+    padding: 0px;
+    
+}
+
+body{
+    font-family: 'Lobster',Arial, Helvetica, sans-serif;
+    
+}
+
+.cabecalho{
+   font-size: 1.7rem;
+   font-weight: bolder;
+   text-align: center;
+   padding: 3%;
+   
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 25vw;
+    height: 70vh;
+    border-radius: 50%;
+    
+}
+
+button{
+    width: 18vw;
+    height: 5vh;
+    font-weight: bold;
+    border-radius: 15%;
+    cursor:pointer;
+}
+
+button:hover{
+    background-color: rgb(181, 181, 209);
+}
