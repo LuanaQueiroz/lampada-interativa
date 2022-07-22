@@ -10,7 +10,7 @@ const lampOn = () => {
     
 }
 turnOn.addEventListener('click', lampOn)
-img.addEventListener('click', lampOn)
+
 
 
 const lampOff = () => {
@@ -21,4 +21,4 @@ const lampOff = () => {
     
 }
 turnOff.addEventListener('click', lampOff)
-img.addEventListener('click', lampOff)
+
